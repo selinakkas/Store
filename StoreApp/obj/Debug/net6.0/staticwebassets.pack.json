@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\images\\default.jpeg"
     },
     {
+      "Id": "C:\\Users\\akkas\\Desktop\\code\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
       "Id": "C:\\Users\\akkas\\Desktop\\code\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

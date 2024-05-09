@@ -1,29 +1,30 @@
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using StoreApp.Models;
-
+using Repositories;
+using Repositories.Contracts;
+using Services.Contracts;
 
 namespace StoreApp.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly RepositoryContext _context;
+        private readonly IServiceManager _manager;
 
-        public ProductController(RepositoryContext context)
+        public ProductController(IServiceManager manager)
         {
-            _context = context;
+            _manager = manager;
         }
+
         public IActionResult Index()
         {
-            var model = _context.Products.ToList();
-           return View(model);
+            var model =  _manager.ProductService.GetAllProducts(false);
+            return View(model);
         }
 
-         public IActionResult Get(int id)
-         {
-            Product product = _context.Products.First(p => p.ProductId.Equals(id));
-            return View(product);
-         }
-
+        public IActionResult Get([FromRoute(Name="id")] int id)
+        {
+            var model = _manager.ProductService.GetOneProduct(id,false);
+            return View(model);
+        }
     }
 }

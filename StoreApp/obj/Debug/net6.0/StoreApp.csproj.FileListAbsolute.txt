@@ -55,3 +55,9 @@ C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x64
 C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
 C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
+C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
+C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
+C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
+C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\Services.dll
+C:\Users\akkas\Desktop\code\MVC\Store\StoreApp\bin\Debug\net6.0\Services.pdb

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EAe+fGp0R/c7JPZrvVwzH8R42xf3TWq0m5zzEIT/LMI=",
+  "Hash": "ni/t5vdKyOkURc8DfTMfnHE2B5w5P7B0JSnlGeQb990=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\akkas\\Desktop\\code\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.png",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\akkas\\Desktop\\code\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/default.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.png"
     },
     {
       "Identity": "C:\\Users\\akkas\\Desktop\\code\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
